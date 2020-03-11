@@ -1,0 +1,6 @@
+# Verificare string folosind while
+
+user_input = ""
+while user_input != "telacad":
+    user_input = input("Introduce-ti string-ul telacad: " )
+print("Sfarsitul programului")
