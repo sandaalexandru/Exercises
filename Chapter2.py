@@ -48,13 +48,15 @@ print(tag('img',src="monet.jpg",alt="Sunrise by Claude Monet",border=1))
 def min_lista(t):
     a = t[0]
     for i in t[1:]:
-        if i < a: a = i
+        if i < a:
+            a = i
     return a
 
 def max_lista(t):
     a = t[0]
     for i in t[1:]:
-        if i > a: a = i
+        if i > a:
+            a = i
     return a
 
 print(min_lista([1, 3, 0, 5, 7]))
